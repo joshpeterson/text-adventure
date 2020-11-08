@@ -1,3 +1,9 @@
 [submodule "thirdparty/benchmark"]
 	path = thirdparty/benchmark
 	url = https://github.com/google/benchmark.git
+[submodule "external/fun-console"]
+	path = thirdparty/fun-console
+	url = git@github.com:joshpeterson/fun-console.git
+[submodule "thirdparty/fmt"]
+	path = thirdparty/fmt
+	url = git@github.com:fmtlib/fmt.git

@@ -12,6 +12,8 @@ add_sanitizers(${LIB_NAME})
 set_target_properties(${LIB_NAME} PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
 
 target_include_directories(${LIB_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(${LIB_NAME} PRIVATE fun-console_lib)
+target_link_libraries(${LIB_NAME} PRIVATE fmt-header-only)
 
 add_executable(${PROJECT_NAME} main.cpp)
 add_sanitizers(${PROJECT_NAME})

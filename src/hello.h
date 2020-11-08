@@ -1,8 +1,4 @@
-#ifndef HELLO_H
-#define HELLO_H
-
+#pragma once
 #include <string>
 
-void hello(std::string const& name);
-
-#endif
+void hello(std::string name);
